@@ -1,8 +1,8 @@
 terraform {
     backend "s3" {
-        bucket = "ani-terraform-bucket"
+        bucket = "terra-project-s3-bucket-aa"
         key = "global/s3/terraform.tfstate"
         region = "eu-central-1"
-        dynamodb_table = "s3-tf-table"
+        dynamodb_table = "my-db-website-table"
     }
 }
